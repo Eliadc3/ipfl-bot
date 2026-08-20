@@ -2,5 +2,13 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ipfl-bot",
   "main": "src/index.js",
-  "compatibility_date": "2026-08-20"
+  "compatibility_date": "2026-08-20",
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ipfl-bot-db",
+      "database_id": "5aa419ad-2cfb-4ca6-bd2f-47801f350c2d"
+    }
+  ]
 }
