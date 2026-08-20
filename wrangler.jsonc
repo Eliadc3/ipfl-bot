@@ -10,5 +10,15 @@
       "database_name": "ipfl-bot-db",
       "database_id": "5aa419ad-2cfb-4ca6-bd2f-47801f350c2d"
     }
+"secrets": {
+  "required": [
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET",
+    "GOOGLE_REDIRECT_URI",
+    "OAUTH_STATE_SECRET",
+    "TOKEN_ENCRYPTION_KEY"
+  ]
+}
+
   ]
 }
