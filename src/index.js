@@ -7,7 +7,7 @@ const GOOGLE_CALENDAR_API = 'https://www.googleapis.com/calendar/v3';
 
 const GOOGLE_SCOPE =
   'https://www.googleapis.com/auth/calendar.app.created';
-
+ 
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
